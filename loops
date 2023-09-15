@@ -1,0 +1,51 @@
+/* AULA DE LOOPS
+WHILE (varialvel){
+
+}
+FOR (variavel){
+
+}
+# i++ e i = i + 1 são IGUAIS
+*/
+//imprimindo números:
+
+let a = 0;
+while (a<10) {
+    console.log(a);
+    a++
+}
+let estomago = 0;
+while (estomago < 100) {
+    console.log("quero comer mais coxinhas");
+    estomago = estomago + 10;
+}
+/*
+console.log(prompt("Digite um número."));
+let soma = 0;
+let numero = Number(prompt("digite um número"));
+while (numero !== 0){
+    soma = soma + numero;
+    numero = Number(prompt("digite um número"));
+}
+ console.log("A soma é: " ,soma);*/
+
+ /*const numeros = [14, 67, 89, 15, 23]
+
+ for (let i = 0; i<5 ; i++){
+    const elementos = numeros[i];
+    console.log(elementos);
+ }*/
+
+ function maiorNumero(arr){
+    const valor = arr [0];
+    for (let a = 0; a < valor.length; a++) {
+        if (arr[i] > valor){
+            maior = arr[a]
+        }
+        
+    }
+    return "O maior número é " + valor;
+ }
+ const num = [11,12,13,4,60];
+ console.log(maiorNumero(num));
+ 
